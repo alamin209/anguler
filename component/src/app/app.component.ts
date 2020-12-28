@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'component';
+  serverid : number =10;
+   name   :  string="This is databinding example in Anguler string"
+
 }

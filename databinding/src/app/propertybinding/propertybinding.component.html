@@ -1,0 +1,10 @@
+
+<button [disabled] ='!allowNewbinding' (click)="onCreateEvent()" class="btn btn-primary">
+    Check Properety Binding</button>
+<p [innerText]="allowNewbinding"></p>
+
+<p> {{  propertybinding  }} </p>
+
+<!-- <input type="text"  class="form-control"  (input) ="onUpdateEvent($event)"  > -->
+
+<h2>{{ eventname }}</h2>
