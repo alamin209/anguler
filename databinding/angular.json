@@ -121,5 +121,8 @@
       }
     }
   },
-  "defaultProject": "databinding"
+  "defaultProject": "databinding",
+  "cli": {
+    "analytics": false
+  }
 }

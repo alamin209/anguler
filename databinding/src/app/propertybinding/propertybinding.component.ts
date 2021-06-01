@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { NgForm, FormBuilder, FormGroup, Validators } from '@angular/forms';
+import { NgForm, FormBuilder, FormGroup, Validators , FormsModule } from '@angular/forms';
 
 @Component({
   selector: 'app-propertybinding',
@@ -12,7 +12,7 @@ export class PropertybindingComponent implements OnInit {
   allowNewbinding =false;
   eventname="";
   propertybinding ='No Event Was Created';
-
+  servername ='dd d ddd';
   constructor() {
 
      setTimeout(()=>{
